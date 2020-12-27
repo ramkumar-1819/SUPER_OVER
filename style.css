@@ -1,1 +1,40 @@
-kumar
+body{
+    background-color: blueviolet;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border:2px solid bisque;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    align-self: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.row{
+    justify-content: space-evenly;
+    
+}
