@@ -12,8 +12,8 @@
         <div class="row">
             <div class="col">
                 <img class="img"src="./images/ind_img.webp" alt="India_logo">
-                <h3>INDIA</h3>
-                <div class="row">
+                <h3 class="team-1" id="team1"></h3>
+                <div class="row run" id="team-1-run">
                     <span class="col">-</span>
                     <span class="col">-</span>
                     <span class="col">-</span>
@@ -22,17 +22,17 @@
                     <span class="col">-</span>
                 </div>
             </div>
-            <div class="col">
-            <h1>
-                <span>0</span>
+            <div class="col" id="score">
+            <div id="row score">
+                <span class="team-1-score" id="team-1-score"></span>
                 <span>-</span>
-                <span>0</span>
-            </h1>
+                <span class="team-2-score" id="team-2-score"></span>
+            </div>
             </div>
             <div class="col">
                 <img class="img" src="./images/aus_img.jpg" alt="Australia_logo">
-                <h3>AUSTRALIA</h3>
-                <div class="row">
+                <h3 class="team-2" id="team2"></h3>
+                <div class="row run" id="team-2-run">
                     <span class="col">-</span>
                     <span class="col">-</span>
                     <span class="col">-</span>
@@ -44,9 +44,10 @@
             </div>
         </div>
         <div class="row">
-            <button>Strike</button>
+            <button class="btn" id="btn" onclick="buttonclick()">Strike</button>
         </div>
-        <div class="row"></div>
+        <div class="row" id="result" hidden></div>
     </div>
+<script src="./new_.js"></script>
 </body>
 </html>
